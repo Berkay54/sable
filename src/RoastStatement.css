@@ -1,0 +1,68 @@
+.roast-statement {
+  padding: clamp(112px, 12vw, 192px) var(--page-gutter) clamp(64px, 6vw, 96px);
+  background: #15110e;
+  color: var(--cream);
+}
+
+.roast-composition {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 300px;
+  padding-right: 58%;
+}
+
+.roast-eyebrow {
+  margin: 0 0 38px;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: .14em;
+  color: var(--copper);
+}
+
+.roast-title {
+  position: absolute;
+  left: 50%;
+  top: 28px;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(52px, 4.8vw, 72px);
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -.035em;
+}
+
+.roast-copy {
+  max-width: 275px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgb(242 238 229 / 82%);
+}
+
+.roast-copy p { margin: 0; }
+.roast-copy .roast-secondary { margin-top: 26px; color: rgb(242 238 229 / 60%); }
+.roast-rule { height: 1px; margin-top: 72px; background: rgb(183 127 96 / 24%); transform-origin: left; }
+
+.roast-entrance { transition: opacity 650ms var(--ease-out), transform 650ms var(--ease-out); }
+.roast-rule { transition: transform 800ms var(--ease-out) 200ms; }
+.roast-title { transition-delay: 80ms; }
+.roast-copy { transition-delay: 160ms; }
+.roast-statement[data-reveal='pending'] .roast-entrance { opacity: 0; transform: translateY(12px); }
+.roast-statement[data-reveal='pending'] .roast-rule { transform: scaleX(.85); }
+
+@media (max-width: 767px) {
+  .roast-statement { padding-block: 96px 56px; }
+  .roast-composition { min-height: 0; padding-right: 0; }
+  .roast-eyebrow { margin-bottom: 32px; }
+  .roast-title { position: static; font-size: clamp(36px, 10vw, 48px); margin-bottom: 32px; }
+  .roast-copy { max-width: 285px; font-size: 14px; }
+  .roast-copy .roast-secondary { margin-top: 24px; }
+  .roast-rule { margin-top: 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .roast-statement .roast-entrance, .roast-statement .roast-rule { transition: none; }
+  .roast-statement[data-reveal] .roast-entrance { opacity: 1; transform: none; }
+  .roast-statement[data-reveal] .roast-rule { transform: none; }
+}
