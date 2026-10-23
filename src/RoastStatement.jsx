@@ -28,8 +28,11 @@ export default function RoastStatement() {
           <p>We roast in small batches to preserve clarity, sweetness and origin.</p>
           <p className="roast-secondary">Nothing rushed.<br />Nothing hidden.</p>
         </div>
+        <p className="roast-technical roast-entrance">SMALL BATCH / 198–205°C / 11–13 MIN</p>
       </div>
-      <div className="roast-rule" aria-hidden="true" />
+      <div className="roast-video">
+        <video src="/video/coffee-roast-process.mp4" autoPlay muted loop playsInline preload="auto" aria-label="Coffee roasting process: beans, smoke and amber highlights" />
+      </div>
     </section>
   )
 }

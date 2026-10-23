@@ -1,0 +1,60 @@
+- generic [ref=f17e2]:
+  - link "Skip to content" [ref=f17e3] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=f17e4]:
+    - region [ref=f17e5]:
+      - generic [ref=f17e8]:
+        - link "Sable home" [ref=f17e9] [cursor=pointer]:
+          - /url: /
+          - text: SABLE
+        - navigation "Main navigation" [ref=f17e10]:
+          - link "ROASTS" [ref=f17e11] [cursor=pointer]:
+            - /url: /roasts
+          - link "PROCESS" [ref=f17e12] [cursor=pointer]:
+            - /url: /process
+          - link "JOURNAL" [ref=f17e13] [cursor=pointer]:
+            - /url: /journal
+          - link "SHOP" [ref=f17e14] [cursor=pointer]:
+            - /url: /shop
+        - link "ORDER" [ref=f17e15] [cursor=pointer]:
+          - /url: /shop
+          - text: ORDER
+          - generic [aria-hidden] [ref=f17e16]: →
+      - generic [ref=f17e17]:
+        - paragraph [ref=f17e18]: SMALL BATCH / SLOW ROAST
+        - heading "COFFEE, TAKEN SERIOUSLY." [level=1] [ref=f17e19]: COFFEE,TAKEN SERIOUSLY.
+        - paragraph [ref=f17e20]: Roasted in small batches.Built around origin, heat and time.
+        - link "VIEW THE ROASTS" [ref=f17e21] [cursor=pointer]:
+          - /url: /roasts
+          - text: VIEW THE ROASTS
+          - generic [aria-hidden] [ref=f17e22]: →
+      - button "Pause background film" [ref=f17e23] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f17e24]: Ⅱ
+        - generic [ref=f17e25]: PAUSE FILM
+    - region [ref=f17e27]:
+      - generic [ref=f17e28]:
+        - paragraph [ref=f17e29]: THE ROAST
+        - heading "HEAT, WITH PURPOSE." [level=2] [ref=f17e30]: HEAT,WITH PURPOSE.
+        - generic [ref=f17e31]:
+          - paragraph [ref=f17e32]: We roast in small batches to preserve clarity, sweetness and origin.
+          - paragraph [ref=f17e33]: Nothing rushed.Nothing hidden.
+        - paragraph [ref=f17e34]: SMALL BATCH / 198–205°C / 11–13 MIN
+      - 'generic "Coffee roasting process: beans, smoke and amber highlights" [ref=f17e36]'
+    - region [ref=f17e37]:
+      - generic [ref=f17e38]:
+        - generic [ref=f17e39]:
+          - heading "OUR ROASTS" [level=2] [ref=f17e40]
+          - article [ref=f17e42]:
+            - paragraph [ref=f17e43]: "01"
+            - heading "SABLE HOUSE" [level=3] [ref=f17e44]
+            - paragraph [ref=f17e45]
+            - paragraph [ref=f17e46]: Brazil / Colombia
+            - list "Tasting notes" [ref=f17e47]:
+              - listitem [ref=f17e48]: Dark Chocolate
+              - listitem [ref=f17e49]: Caramel
+              - listitem [ref=f17e50]: Roasted Hazelnut
+            - paragraph [ref=f17e51]: MEDIUM-DARK
+            - generic [ref=f17e52]:
+              - generic [ref=f17e53]: 250 G
+              - generic [ref=f17e54]: ₺420
+        - generic "SABLE signature coffee film" [ref=f17e56]

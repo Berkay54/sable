@@ -1,0 +1,59 @@
+- generic [ref=f7e2]:
+  - link "Skip to content" [ref=f7e3] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=f7e4]:
+    - region [ref=f7e5]:
+      - generic [ref=f7e8]:
+        - link "Sable home" [ref=f7e9] [cursor=pointer]:
+          - /url: /
+          - text: SABLE
+        - navigation "Main navigation" [ref=f7e10]:
+          - link "ROASTS" [ref=f7e11] [cursor=pointer]:
+            - /url: /roasts
+          - link "PROCESS" [ref=f7e12] [cursor=pointer]:
+            - /url: /process
+          - link "JOURNAL" [ref=f7e13] [cursor=pointer]:
+            - /url: /journal
+          - link "SHOP" [ref=f7e14] [cursor=pointer]:
+            - /url: /shop
+        - link "ORDER" [ref=f7e15] [cursor=pointer]:
+          - /url: /shop
+          - text: ORDER
+          - generic [aria-hidden] [ref=f7e16]: →
+      - generic [ref=f7e17]:
+        - paragraph [ref=f7e18]: SMALL BATCH / SLOW ROAST
+        - heading "COFFEE, TAKEN SERIOUSLY." [level=1] [ref=f7e19]: COFFEE,TAKEN SERIOUSLY.
+        - paragraph [ref=f7e20]: Roasted in small batches.Built around origin, heat and time.
+        - link "VIEW THE ROASTS" [ref=f7e21] [cursor=pointer]:
+          - /url: /roasts
+          - text: VIEW THE ROASTS
+          - generic [aria-hidden] [ref=f7e22]: →
+      - button "Pause background film" [ref=f7e23] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f7e24]: Ⅱ
+        - generic [ref=f7e25]: PAUSE FILM
+    - region [ref=f7e27]:
+      - generic [ref=f7e28]:
+        - paragraph [ref=f7e29]: THE ROAST
+        - heading "HEAT, WITH PURPOSE." [level=2] [ref=f7e30]: HEAT,WITH PURPOSE.
+        - generic [ref=f7e31]:
+          - paragraph [ref=f7e32]: We roast in small batches to preserve clarity, sweetness and origin.
+          - paragraph [ref=f7e33]: Nothing rushed.Nothing hidden.
+        - paragraph [ref=f7e34]: SMALL BATCH / 198–205°C / 11–13 MIN
+      - 'generic "Coffee roasting process: beans, smoke and amber highlights" [ref=f7e36]'
+    - region [ref=f7e37]:
+      - generic [ref=f7e38]:
+        - paragraph [ref=f7e39]: SIGNATURE ROAST
+        - heading "BUILT FOR THE EVERYDAY RITUAL." [level=2] [ref=f7e40]: BUILT FORTHE EVERYDAY RITUAL.
+        - paragraph [ref=f7e41]: A balanced house roast with deep sweetness, clean structure and a long finish.
+        - list "Tasting notes" [ref=f7e42]:
+          - listitem [ref=f7e43]: DARK CHOCOLATE
+          - listitem [ref=f7e44]: CARAMEL
+          - listitem [ref=f7e45]: ROASTED HAZELNUT
+        - generic [ref=f7e46]:
+          - generic [ref=f7e47]:
+            - term [ref=f7e48]: Origin
+            - definition [ref=f7e49]: BRAZIL / COLOMBIA
+          - generic [ref=f7e50]:
+            - term [ref=f7e51]: Roast
+            - definition [ref=f7e52]: MEDIUM-DARK
+      - generic "SABLE signature coffee film" [ref=f7e54]

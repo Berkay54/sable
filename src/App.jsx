@@ -1,6 +1,7 @@
 ﻿import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import RoastStatement from './RoastStatement'
+import SignatureRoast from './SignatureRoast'
 
 const navigation = [['ROASTS', '/roasts'], ['PROCESS', '/process'], ['JOURNAL', '/journal'], ['SHOP', '/shop']]
 
@@ -54,7 +55,9 @@ export default function App() {
             <span>{playing ? 'PAUSE FILM' : 'PLAY FILM'}</span>
           </button>}
         </section>
+        <div className="hero-roast-spacer" aria-hidden="true" />
         <RoastStatement />
+        <SignatureRoast />
       </main>
     </>
   )

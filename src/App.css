@@ -1,4 +1,8 @@
 ﻿.hero { position: relative; isolation: isolate; height: 100svh; min-height: 580px; overflow: hidden; background: #15110e; }
+.hero-roast-spacer { height: 26svh; background: #15110e; }
+@media (max-width: 767px) {
+  .hero-roast-spacer { height: 17svh; }
+}
 .hero-film, .hero-film::after, .hero-film video { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero-film { z-index: -1; background: #15110e url('/video/coffee-poster.jpg') center / cover no-repeat; }
 .hero-film video { object-fit: cover; object-position: center; }

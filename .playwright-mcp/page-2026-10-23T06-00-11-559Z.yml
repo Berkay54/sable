@@ -1,0 +1,42 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=f2e4]:
+    - region [ref=f2e5]:
+      - generic [ref=f2e8]:
+        - link "Sable home" [ref=f2e9] [cursor=pointer]:
+          - /url: /
+          - text: SABLE
+        - navigation "Main navigation" [ref=f2e10]:
+          - link "ROASTS" [ref=f2e11] [cursor=pointer]:
+            - /url: /roasts
+          - link "PROCESS" [ref=f2e12] [cursor=pointer]:
+            - /url: /process
+          - link "JOURNAL" [ref=f2e13] [cursor=pointer]:
+            - /url: /journal
+          - link "SHOP" [ref=f2e14] [cursor=pointer]:
+            - /url: /shop
+        - link "ORDER" [ref=f2e15] [cursor=pointer]:
+          - /url: /shop
+          - text: ORDER
+          - generic [aria-hidden] [ref=f2e16]: →
+      - generic [ref=f2e17]:
+        - paragraph [ref=f2e18]: SMALL BATCH / SLOW ROAST
+        - heading "COFFEE, TAKEN SERIOUSLY." [level=1] [ref=f2e19]: COFFEE,TAKEN SERIOUSLY.
+        - paragraph [ref=f2e20]: Roasted in small batches.Built around origin, heat and time.
+        - link "VIEW THE ROASTS" [ref=f2e21] [cursor=pointer]:
+          - /url: /roasts
+          - text: VIEW THE ROASTS
+          - generic [aria-hidden] [ref=f2e22]: →
+      - button "Pause background film" [ref=f2e23] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f2e24]: Ⅱ
+        - generic [ref=f2e25]: PAUSE FILM
+    - region [ref=f2e27]:
+      - generic [ref=f2e28]:
+        - paragraph [ref=f2e29]: THE ROAST
+        - heading "HEAT, WITH PURPOSE." [level=2] [ref=f2e30]: HEAT,WITH PURPOSE.
+        - generic [ref=f2e31]:
+          - paragraph [ref=f2e32]: We roast in small batches to preserve clarity, sweetness and origin.
+          - paragraph [ref=f2e33]: Nothing rushed.Nothing hidden.
+        - paragraph [ref=f2e34]: SMALL BATCH / 198–205°C / 11–13 MIN
+      - img "Roasted coffee beans suspended above a dark stone surface, caught in warm light." [ref=f2e36]

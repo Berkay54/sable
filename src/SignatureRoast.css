@@ -1,0 +1,63 @@
+﻿.signature-roast { height: 350svh; margin-top: 21svh; background: #15110e; color: var(--cream); }
+.signature-stage { display: flex; align-items: center; position: sticky; top: 0; height: 100svh; }
+.signature-content { flex: 0 0 40%; min-width: 0; padding: 32px 24px 32px var(--page-gutter); }
+.signature-eyebrow { margin: 0; color: var(--copper); font-size: 10px; font-weight: 400; line-height: 1.5; letter-spacing: .14em; }
+.signature-intro { margin: 14px 0 30px; font-size: 13px; line-height: 1.8; color: rgb(242 238 229 / 60%); }
+.signature-menu { position: relative; height: 420px; width: 100%; max-width: 400px; overflow: hidden; border-radius: 6px; }
+.signature-menu-card {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  padding: 26px 28px 22px;
+  border: 1px solid rgb(210 181 151 / 20%);
+  border-radius: 6px;
+  background: #1b1511;
+  opacity: 0;
+  visibility: hidden;
+}
+.signature-menu-card:first-child { opacity: 1; visibility: visible; }
+.signature-index { margin: 0 0 14px; font-size: 10px; line-height: 1.5; letter-spacing: .12em; color: var(--copper); }
+.signature-menu-card h3 { margin: 0; font-family: 'Times New Roman', Times, serif; font-size: clamp(24px, 2.1vw, 30px); font-weight: 400; line-height: 1.1; letter-spacing: -.015em; }
+.signature-district { margin: 4px 0 10px; font-size: 10px; line-height: 1.5; letter-spacing: .12em; color: rgb(242 238 229 / 75%); }
+.signature-origin { margin: 0; font-size: 12px; line-height: 1.6; color: rgb(242 238 229 / 62%); }
+.signature-notes { list-style: none; padding: 0; margin: 20px 0 16px; font-size: 13px; line-height: 1.7; color: rgb(242 238 229 / 88%); }
+.signature-roast-level { margin: 0 0 20px; font-size: 10px; line-height: 1.5; letter-spacing: .1em; color: rgb(242 238 229 / 58%); }
+.signature-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 14px; border-top: 1px solid rgb(210 181 151 / 17%); font-size: 10px; line-height: 1.4; letter-spacing: .08em; }
+.signature-price { font-size: 20px; letter-spacing: -.02em; }
+.signature-film { position: relative; flex: 0 0 60%; min-width: 0; height: 74svh; }
+.signature-film video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.signature-film::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, #15110e, transparent 14%); }
+@media (max-width: 1023px) {
+  .signature-roast { height: 250svh; margin-top: 14svh; }
+  .signature-stage { flex-direction: column; justify-content: center; }
+  .signature-content { flex: none; width: 100%; padding: 16px var(--page-gutter) 20px; }
+  .signature-intro { display: none; }
+  .signature-eyebrow { margin-bottom: 16px; }
+  .signature-menu { height: 370px; max-width: 400px; margin-inline: auto; }
+  .signature-menu-card { padding: 20px 24px; }
+  .signature-index { margin-bottom: 10px; }
+  .signature-menu-card h3 { font-size: 26px; }
+  .signature-district { margin: 2px 0 6px; }
+  .signature-notes { margin: 14px 0 12px; line-height: 1.6; }
+  .signature-roast-level { margin-bottom: 14px; }
+  .signature-card-footer { padding-top: 10px; }
+  .signature-film { flex: none; width: 100%; height: 30svh; }
+  .signature-film::after { background: linear-gradient(180deg, #15110e, transparent 12%); }
+}
+@media (max-width: 1023px) and (max-height: 700px) {
+  .signature-menu { height: 340px; }
+  .signature-menu-card { padding: 16px 20px; }
+  .signature-index { margin-bottom: 8px; }
+  .signature-notes { margin-block: 10px; }
+  .signature-film { height: 25svh; }
+  .signature-content { padding-block: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .signature-roast { height: auto; padding-bottom: 10svh; }
+  .signature-stage { position: static; height: auto; flex-direction: column; }
+  .signature-content { flex: none; width: 100%; padding: 32px var(--page-gutter); }
+  .signature-menu { height: auto; max-width: 400px; overflow: visible; }
+  .signature-menu-card { position: relative; opacity: 1; visibility: visible; min-height: 420px; margin-block: 20px; }
+  .signature-film { flex: none; width: 100%; height: 60svh; }
+}
